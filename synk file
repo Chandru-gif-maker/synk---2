@@ -1,0 +1,7 @@
+import os
+
+filename = input("Filename: ")
+print(open(filename).read())
+
+ip = input("IP to ping: ")
+os.system("ping " + ip)       
